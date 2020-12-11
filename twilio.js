@@ -7,6 +7,7 @@ var app = express();
 var ACCOUNT_SID = 'ACd917247087c91a3660a8ca6977790cf2';
 var API_KEY_SID = 'SKf1037a513b0e35632d2d5de97e2ec5ec';
 var API_KEY_SECRET = 'mlyuPBaH0skCYmYDGHvnCzKQkM4zr4cX';
+const http_port = 8080;
 
 app.get("/token", (req, res, next) => {
   // Create an Access Token
@@ -30,6 +31,6 @@ app.get("/token", (req, res, next) => {
   console.log(jwt);
 });
 
-app.listen(8080, () => {
-  console.log("Server running on port 3000");
+app.listen(http_port, () => {
+  console.log(`Server running on port ${http_port}`);
 });
