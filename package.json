@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jbejas/tmrw-twilio-poc#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
     "twilio": "^3.54.0"
   }
 }
