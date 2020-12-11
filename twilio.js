@@ -10,6 +10,10 @@ var API_KEY_SECRET = 'mlyuPBaH0skCYmYDGHvnCzKQkM4zr4cX';
 const http_port = 8080;
 
 app.get("/token", (req, res, next) => {
+  res("Silence is golden!");
+});
+
+app.get("/token", (req, res, next) => {
   // Create an Access Token
   var accessToken = new AccessToken(
     ACCOUNT_SID,
