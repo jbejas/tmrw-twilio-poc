@@ -4,7 +4,7 @@
   "description": "TMRW Rwilio POC",
   "main": "twilio.js",
   "scripts": {
-    "test": "test"
+    "start": "node twilio.js"
   },
   "repository": {
     "type": "git",
